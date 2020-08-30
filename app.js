@@ -56,7 +56,7 @@ function setBg() {
         // Evening
         document.body.style.background = "url('../imgs/night2.jpg')";
         document.body.style.backgroundRepeat = 'no-repeat';
-        document.body.style.backgroundSize = '100%';
+        document.body.style.backgroundSize = 'cover';
         document.body.style.color = 'white';
         greeting.textContent = 'Good Evening'
     }
@@ -334,6 +334,5 @@ window.addEventListener('load', () => {
 
   
 })
-
 
 
