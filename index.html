@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/weather.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+ 
 
     <title>Dynamic Landing Page</title>
 </head>
 <body>
-
     <div class="todoContainer">
-
+        <div class="Title">
+            <!-- <h1>TODO List</h1>
+        </div>
+        <div class="Todo">
+            
+        </div> -->
     </div>
 
     <div class="timeContainer">
@@ -31,25 +36,30 @@
 
     <div class="weatherContainer">
         <div class="location">
-            <h1 class="locationTimezone">Timezone</h1>
-            <canvas class="icon" width="128" height="128"></canvas>
+  
+            <div class="temperature">
 
-        <div class="temperature">
-            <div class="degreeSection">
-                <h3>Max/</h3>
-                <h2 class="temperatureDegreeMax"></h2>
-                <span>C</span>
-                <h1></h1>
-                <h3>Min/</h3>
-                <h2 class="temperatureDegreeMin"></h2>
-                <span>C</span>
+                <div class="icon">                 
+
+                </div>
+
+                  <div class="degreeSection">
+                    <h3>Max/</h3>
+                    <h2 class="temperatureDegreeMax"></h2>
+                    <span>°C</span>
+                    <h1></h1>
+                    <h3>Min/</h3>
+                    <h2 class="temperatureDegreeMin"></h2>
+                    <span>°C</span>
+                </div>
+
+                  <div class="temperatureDescription"></div>
+                  <h1 class="locationTimezone">Timezone</h1>
             </div>
-            <div class="temperatureDescription">It's cold</div>
-        </div>
-        </div>
+ 
     </div>
 
-   <script src="skycons.js"></script>
+ 
    <script src="app.js"></script> 
 </body>
 </html>
