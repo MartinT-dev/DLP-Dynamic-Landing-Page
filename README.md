@@ -2,3 +2,7 @@
 
 
 <img src="gifs/dlp-morning.gif">
+
+<img src="gifs/dlp-afternoon.gif">
+
+<img src="gifs/dlp-night.gif">
